@@ -13,7 +13,7 @@ One approach to think about blending Machine Learning tools into the traditional
 
 ### Reference texts/papers
 * Kenneth Train, **Discrete choice methods with simulation**, Cambridge Univ. Press (pdf version on Train's website)
-* Stefan Wager, Trevor Hastie, and Bradley Efron, **Confidence intervals for random forests: the Jjackknife and the infinitesimal jackknife**, Journal of Machine Learning Research (2014).
+* Stefan Wager, Trevor Hastie, and Bradley Efron, **Confidence intervals for random forests: the Jackknife and the infinitesimal jackknife**, Journal of Machine Learning Research (2014).
 * Susan Athey and Guido Imbens, **Recursive partitioning for heterogeneous causal effects**, PNAS (2016)
 * Susan Athey, Julie Tibshirani and Stefan Wager, **Generalized Random Forests**, arXiv:1610.01271v3 (2017)
 
