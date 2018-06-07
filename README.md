@@ -6,7 +6,7 @@ Low adoption rates of catastrophic insurance for floods or mudslides have been i
 
 This project estimates the impact of prices and geographic (long/lat) location on insurance adoption rates. Estimates are obtained using regression and also using a blend of random forest based estimation with linear regression. 
 
-* [Initial mapping of premium rates and adoption levels](./femaData.ipynb) 
+* [mapping and estimating elasticity of insurance adoption](./femaData.ipynb) 
 
 ### ML and econometrics
 My approach to blending machine learning tools with traditional econometrics framework is to think about the **anatomy of a regression** formula. The formula states that the **partial effect** of a variable X on Y can be estimated as *beta = Cov(Resid.Y, Resid.X)/Var(Resid.X)*, where these are residuals obtained by regressing Y and X on *all other covariates*. These regressions, in turn, can be based on linear regression, or any other statistical learning method such as random forests or neural networks. Standard errors can be obtained using resampling methods e.g. bootsrap, jackknife etc.  
