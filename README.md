@@ -1,5 +1,11 @@
-## Stats, Econometrics and ML Methods 
-A side project exploring estimation methods based on **random forests** and comparing them with traditional econometric methods (e.g. linear regression, logistic regression). 
+## Stats, Econometrics and ML 
+* Exploring **tree-based** ML methods such as  *random forests*, *boosting* (e.g xgboost or Microsoft's Light GBM), comparing or combining  them with traditional econometric methods (e.g. linear regression, logistic regression). 
+* Using *natural language processing* tools to visualize and analyze text data, such as regulatory filings.
+
+### FCC regulatory filings and comments
+Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. This analysis is an attempt to use natural language processing tools to quantify the market and institutional complexities in this sphere.
+* [Jupyter notebook](./FCC17_84.ipynb) (uses R, a couple of lines of Bash).
+* [D3 visualization](https://bl.ocks.org/petecarkeek/c7da7590422d55e0b1dde588d9835df1) (Jypter notebook uses ggplot2) on Mike Bostock's bl.ocks.org
 
 ### Fema Flood Insurance 
 "_Floods are the most common and costly natural hazard in the nation._" ([source](https://www.fema.gov/wildfires-you-need-flood-insurance)). 
