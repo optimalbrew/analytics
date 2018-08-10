@@ -22,7 +22,7 @@ My approach to blending machine learning tools with traditional econometrics fra
 
 * [Multiple regression and generalized random forest](./genRandForest.ipynb) : simple "text book" example of a wage regression to compare linear models with random forest based estimation.
 
-* [Intro to mixed logit regression with random coefficients](./mixedLogit.ipynb)  Todo: extend example to cover random forest approach using multinomial logit and classification trees with CRAN package 'ranger'.
+* [Mixed logit regression with random coefficients](./mixedLogit.ipynb)  Todo: extend example to cover random forest approach using multinomial logit and classification trees with CRAN package 'ranger'.
 
 ### Reference texts/papers
 * Kenneth Train, **Discrete choice methods with simulation**, Cambridge Univ. Press (pdf version on Train's website)
