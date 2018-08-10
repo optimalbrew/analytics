@@ -4,8 +4,8 @@
 
 ### FCC regulatory filings and comments
 Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. This analysis is an attempt to use natural language processing tools to quantify the market and institutional complexities in this sphere.
-* [Jupyter notebook](./FCC17_84.ipynb) Using R, a couple of lines of Bash). Has more detailed information.
-* [Jypyter nb python](./fccPyClusters.ipynb) Using python/nltk, plots are a bit different from R version. Also, clustering is done before and after dimensionality reduction (with singular values decomp. and princal comps.). 
+* [Jupyter nb 1](./FCC17_84.ipynb) Using R, a couple of lines of Bash). Has more detailed information.
+* [Jupyter nb 2](./fccPyClusters.ipynb) Using python/nltk, plots are a bit different from R version. Also, clustering is done before and after dimensionality reduction (with singular values decomp. and princal comps.). 
 * [D3 visualization](https://bl.ocks.org/petecarkeek/c7da7590422d55e0b1dde588d9835df1) (Jypter notebook uses ggplot2) on Mike Bostock's bl.ocks.org
 
 ### Fema Flood Insurance 
