@@ -1,5 +1,5 @@
 ## Just a collection of projects
-Some are related to academic research, while many others are linked to my attempts to merge econometrics and economic analysis with new tools from machine learning.
+Some are related to academic research, while others are linked to my attempts in merging econometrics and economic analysis with new tools from machine learning.
 
 ### A pytorch implementation for two sided marketplace pricing
 Motivation: Consider a platform that connects pet owners with pet-care service providers. The platform charges fees of 5% to pet owners while it charges 25% to service providers. For any given transaction price, say $20 for a dog walk, the buyer spends ($20 + $1) = $21 net, while the service provider receives ($20 - $5) = $15 net. The platform earns $1+$5 = $6 (i.e. 30% of $20). Will the platform's revenue be the same with other fee-combinations that still add up to the same 30% (e.g. 15% to each side)? Of course not, as the new fee structure will alter the willingness to use the service. In two-sided markets, changes in the price struture can lead to large changes in user participation, transaction volume and profitability. In some cases, it is beneficial to subsidize one side of the market by pricing the service below the platform's cost (and making it up on the other side of the market).
@@ -8,7 +8,7 @@ I implement a pricing model for two-sided markets using pytorch. [Jupyter Notebo
 
 
 ### FCC regulatory filings and comments
-Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. This analysis is an attempt to use natural language processing tools to quantify the market and institutional complexities in this sphere.
+Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. This analysis uses natural language processing tools to quantify the market and institutional complexities in this sphere.
 * [Jupyter nb 1](./FCC17_84.ipynb): Using *R, tm, tidytext* a couple of lines of Bash. Has more detailed information.
 * [Jupyter nb 2](./fccPyClusters.ipynb): Using python with *nltk*, plots are a bit different from R version. Clustering is done  (separately) both before and after dimensionality reduction (with singular values decomp. and princal comps.). Unlike the R version, which seoarates the unigrams and bigram visualization, this version combines both unigrams and bigrams in one token-document matrix.
 * [D3 visualization](https://bl.ocks.org/petecarkeek/c7da7590422d55e0b1dde588d9835df1) (Jypter notebook uses ggplot2) on Mike Bostock's bl.ocks.org
@@ -28,3 +28,7 @@ My approach to blending machine learning tools with traditional econometrics fra
 * [Multiple regression and generalized random forest](./genRandForest.ipynb) : simple "text book" example of a wage regression to compare linear models with random forest based estimation.
 
 * [Mixed logit regression with random coefficients](./mixedLogit.ipynb)  Todo: extend example to cover random forest approach using multinomial logit and classification trees with CRAN package 'ranger'.
+
+
+### Spectrum Sharing
+Link to repo with [R programs](https://github.com/petecarkeek/Spectrum_Sharing) to generate plots for IEEE paper on dynamic spectrum allocation in licensed wireless bands. 
