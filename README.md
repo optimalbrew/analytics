@@ -1,6 +1,11 @@
-## Stats, Econometrics and ML 
-* Exploring **tree-based** ML methods such as  *random forests*, *boosting* (e.g xgboost or Microsoft's Light GBM), comparing or combining  them with traditional econometric methods (e.g. linear regression, logistic regression). 
-* Using *natural language processing* tools to visualize and analyze text data, such as regulatory filings.
+## Just a collection of projects
+Some are related to academic research, while many others are linked to my attempts to merge econometrics and economic analysis with new tools from machine learning.
+
+### A pytorch implementation for two sided marketplace pricing
+Motivation: Consider a platform that connects pet owners with pet-care service providers. The platform charges fees of 5% to pet owners while it charges 25% to service providers. For any given transaction price, say $20 for a dog walk, the buyer spends ($20 + $1) = $21 net, while the service provider receives ($20 - $5) = $15 net. The platform earns $1+$5 = $6 (i.e. 30% of $20). Will the platform's revenue be the same with other fee-combinations that still add up to the same 30% (e.g. 15% to each side)? Of course not, as the new fee structure will alter the willingness to use the service. In two-sided markets, changes in the price struture can lead to large changes in user participation, transaction volume and profitability. In some cases, it is beneficial to subsidize one side of the market by pricing the service below the platform's cost (and making it up on the other side of the market).
+
+I implement a pricing model for two-sided markets using pytorch. [Jupyter Notebook](./Marketplace.ipynb)
+
 
 ### FCC regulatory filings and comments
 Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. This analysis is an attempt to use natural language processing tools to quantify the market and institutional complexities in this sphere.
@@ -23,9 +28,3 @@ My approach to blending machine learning tools with traditional econometrics fra
 * [Multiple regression and generalized random forest](./genRandForest.ipynb) : simple "text book" example of a wage regression to compare linear models with random forest based estimation.
 
 * [Mixed logit regression with random coefficients](./mixedLogit.ipynb)  Todo: extend example to cover random forest approach using multinomial logit and classification trees with CRAN package 'ranger'.
-
-### Reference texts/papers
-* Kenneth Train, **Discrete choice methods with simulation**, Cambridge Univ. Press (pdf version on Train's website)
-* Stefan Wager, Trevor Hastie, and Bradley Efron, **Confidence intervals for random forests: the Jackknife and the infinitesimal jackknife**, Journal of Machine Learning Research (2014).
-* Susan Athey and Guido Imbens, **Recursive partitioning for heterogeneous causal effects**, PNAS (2016)
-* Susan Athey, Julie Tibshirani and Stefan Wager, **Generalized Random Forests**, arXiv:1610.01271v3 (2017)
