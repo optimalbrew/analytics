@@ -1,4 +1,5 @@
 """ 
+Modified from: 
 Minimal character-level Vanilla RNN model. Written by Andrej Karpathy (@karpathy)
 BSD License
 
