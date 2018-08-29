@@ -8,7 +8,7 @@ Mods: print function. xrange() to range(), added split() to data to convert to w
 modified hyper paras to be smaller.
 """
 
-import numpy as np
+import numpy as np #he wrote this pre-pytorch. 
 
 # data I/O
 """
