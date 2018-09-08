@@ -1,10 +1,9 @@
-## Just a collection of projects
-Some are related to academic research, while others are linked to my attempts in merging econometrics and economic analysis with new tools from machine learning.
+## Machine Learning tools for economic analysis
 
-### A pytorch implementation for two sided marketplace pricing
-Motivation: Consider a platform that connects pet owners with pet-care service providers. The platform charges fees of 5% to pet owners while it charges 25% to service providers. For any given transaction price, say $20 for a dog walk, the buyer spends ($20 + $1) = $21 net, while the service provider receives ($20 - $5) = $15 net. The platform earns $1+$5 = $6 (i.e. 30% of $20). Will the platform's revenue be the same with other fee-combinations that still add up to the same 30% (e.g. 15% to each side)? Of course not, as the new fee structure will alter the willingness to use the service. In two-sided markets, changes in the price struture can lead to large changes in user participation, transaction volume and profitability. In some cases, it is beneficial to subsidize one side of the market by pricing the service below the platform's cost (and making it up on the other side of the market).
+### A pytorch implementation of two-sided marketplace pricing
+**Motivation:** Consider a marketplace that connects pet owners with pet-care service providers. The platform charges fees of 5% to pet owners while it charges 25% to service providers. For any given transaction price, say $20 for a dog walk, the buyer spends $20 + $1 = $21 net, while the service provider receives $20 - $5 = $15 net. The platform earns $1+$5 = $6 (i.e. 30% of $20). Will the platform's revenue be the same with other fee-combinations that still add up to the same 30% (e.g. 15% to each side)? Of course not, as the new fee structure will alter the willingness to use the service (e.g. increase owner's out of pocket costs in our example to $20+$3=$23). In two-sided markets, changes in the price struture can lead to large changes in user participation, transaction volume and profitability. In some cases, it is beneficial to subsidize one side of the market by pricing the service below the platform's cost (and making it up on the other side of the market).
 
-I implement a pricing model for two-sided markets using pytorch. [Jupyter Notebook](./Marketplace.ipynb)
+I implement a pricing model for two-sided markets using pytorch [Jupyter Notebook](./Marketplace.ipynb).
 
 
 ### FCC regulatory filings and comments
@@ -22,13 +21,12 @@ This project estimates the impact of prices and geographic (long/lat) location o
 
 * [mapping and estimating elasticity of insurance adoption](./femaData.ipynb) 
 
+### Spectrum Sharing in Licensed Wireless Communication Bands
+We develop pricing models to study the sharing of radio frequency resources between existing (e.g. cellular networks) and emerging technologies (e.g. robotics, sensor networks). Link to repo with [R programs](https://github.com/petecarkeek/Spectrum_Sharing) to generate plots for [IEEE paper on dynamic spectrum allocation in licensed wireless bands](https://ieeexplore.ieee.org/abstract/document/8301016/). 
+
 ### ML and econometrics
-My approach to blending machine learning tools with traditional econometrics framework is to think about the **anatomy of a regression** formula. The formula states that the **partial effect** of a variable X on Y can be estimated as *beta = Cov(Resid.Y, Resid.X)/Var(Resid.X)*, where these are residuals obtained by regressing Y and X on *all other covariates*. These regressions, in turn, can be based on linear regression, or any other statistical learning method such as random forests or neural networks. Standard errors can be obtained using resampling methods e.g. bootsrap, jackknife etc.  
+My approach to blending machine learning tools with traditional econometrics framework is to think about the **anatomy of a regression** formula (e.g. see 'Mostly harmless econometrics' by Angrist and Pischke). The formula states that the **partial effect** of a variable X on Y can be estimated as *beta = Cov(Resid.Y, Resid.X)/Var(Resid.X)*, where these are residuals obtained by regressing Y and X on *all other covariates*. These regressions, in turn, can be based on linear regression, or any other statistical learning method such as random forests or neural networks. Standard errors can be obtained using resampling methods e.g. bootsrap, jackknife etc.  
 
 * [Multiple regression and generalized random forest](./genRandForest.ipynb) : simple "text book" example of a wage regression to compare linear models with random forest based estimation.
 
 * [Mixed logit regression with random coefficients](./mixedLogit.ipynb)  Todo: extend example to cover random forest approach using multinomial logit and classification trees with CRAN package 'ranger'.
-
-
-### Spectrum Sharing
-Link to repo with [R programs](https://github.com/petecarkeek/Spectrum_Sharing) to generate plots for IEEE paper on dynamic spectrum allocation in licensed wireless bands. 
