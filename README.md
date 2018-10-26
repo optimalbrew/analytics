@@ -5,12 +5,16 @@
 
 I implement a pricing model for two-sided markets using pyTorch [Jupyter Notebook](./Marketplace.ipynb). A simple illustration of how deep learning frameworks (TensorFlow, pyTorch) with automatic gradient computations can be used for general mathematical modeling and some optimization (not just for neural networks). 
 
-
 ### FCC regulatory filings and comments
 Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. This analysis uses natural language processing tools to quantify the market and institutional complexities in this sphere.
 * [Jupyter nb 1](./FCC17_84.ipynb): Using *R, tm, tidytext* a couple of lines of Bash. Has more detailed information.
 * [Jupyter nb 2](./fccPyClusters.ipynb): Using python with *nltk*, plots are a bit different from R version. Clustering is done  (separately) both before and after dimensionality reduction (with singular values decomp. and princal comps.). Unlike the R version, which seoarates the unigrams and bigram visualization, this version combines both unigrams and bigrams in one token-document matrix.
 * [D3 visualization](https://bl.ocks.org/petecarkeek/c7da7590422d55e0b1dde588d9835df1) (Jypter notebook uses ggplot2) on Mike Bostock's bl.ocks.org
+
+### Early repayment and default in personal loan markets
+Investors in fixed income securities (like p2p lending) must account for the possibility of default. This is made easier by credit ratings. However, early debt repayment can also hurt investors by altering their expected cash flow streams and leaving them with excess liquidity. This is especially a problem for those who do not have automated reinvestment strategies (most investors in peer to peer personal loans markets?).
+
+[Link to repository](https://github.com/petecarkeek/lendClub/) with bash script to download the data and pySpark code to run regressions. 
 
 ### Mapping Fema Flood Insurance Adoption Rates and Sensitivity 
 "_Floods are the most common and costly natural hazard in the nation._" ([source: fema.gov](https://www.fema.gov/wildfires-you-need-flood-insurance)). 
