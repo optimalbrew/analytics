@@ -23,8 +23,6 @@ Low adoption rates of catastrophic insurance for floods or mudslides often show 
 
 This project [maps and estimates](https://github.com/petecarkeek/floodInsurance) the impact of prices and geographic (long/lat) location on insurance adoption rates. Estimates are obtained using regression and using a blend of random forest based estimation with linear regression.
 
-* [mapping and estimating elasticity of insurance adoption](./femaData.ipynb) 
-
 ### Spectrum Sharing in Licensed Wireless Communication Bands
 Pricing models to study the sharing of radio frequency resources between existing (e.g. cellular networks) and emerging technologies (e.g. robotics, sensor networks). Link to repo with [R programs](https://github.com/petecarkeek/Spectrum_Sharing) to generate plots for [IEEE paper on dynamic spectrum allocation in licensed wireless bands](https://ieeexplore.ieee.org/abstract/document/8301016/). 
 
