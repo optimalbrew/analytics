@@ -1,4 +1,4 @@
-## Machine Learning tools for economic analysis
+## Machine Learning tools in economic analysis
 
 ### A pyTorch implementation of two-sided marketplace pricing
 **Motivation:** Consider a marketplace that connects pet owners with pet-care service providers. The platform charges fees of 5% to pet owners while it charges 25% to service providers. For any given transaction price, say $20 for a dog walk, the buyer spends $20 + $1 = $21 net, while the service provider receives $20 - $5 = $15 net. The platform earns $1+$5 = $6 (i.e. 30% of $20). Will the platform's revenue be the same with other fee-combinations that still add up to the same 30% (e.g. 15% to each side)? Of course not, as the new fee structure will alter the willingness to use the service (e.g. increase owners' out of pocket costs in our example to $20+$3=$23). In two-sided markets, changes in the price struture can lead to large changes in user participation, transaction volume and profitability. In some cases, it is beneficial to subsidize one side of the market by pricing the service below the platform's cost (and making it up on the other side of the market).
