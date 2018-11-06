@@ -1,6 +1,6 @@
 ## Machine Learning tools in economic analysis
 
-### Feed forward Neural Networks to study early repayment and default in personal loan markets
+### Feed forward neural network to study early repayment and default in personal loan markets
 Investors in fixed income securities (like p2p lending) must account for the possibility of default. This is made easier by credit ratings. However, early debt repayment can also hurt investors by altering their expected cash flow streams and leaving them with excess liquidity. This is especially a problem for those who do not have automated reinvestment strategies (most investors in peer to peer personal loans markets?). Multinomial logistic regression can be used to predict default, or early repayment and linear regression (or survival analysis) can be used to predict the time of default or early repayment. I use a feed forward neural network to do both in one step. 
 
 [Link to repository](https://github.com/petecarkeek/repayDefault/) with bash script to download the data and pySpark code to run regressions. 
