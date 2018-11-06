@@ -21,7 +21,7 @@ Competition, or the lack thereof, among service providers not only determines ec
 
 Low adoption rates of catastrophic insurance for floods or mudslides often show up in news reports following wildfires. In addition to storm related flooding, there are also increasing concerns about _sunny-day floods_. These are (increasingly frequent) situations where sea water is driven up coastal sewer systems by strong tides (particularly in the absence of storms or hurricanes). 
 
-This project [maps and estimates](https://github.com/petecarkeek/floodInsurance) the impact of prices and geographic (long/lat) location on insurance adoption rates. Estimates are obtained using regression and using a blend of random forest based estimation with linear regression.
+This [project (repo) maps and estimates](https://github.com/petecarkeek/floodInsurance) the impact of prices and geographic (long/lat) location on insurance adoption rates. Estimates are obtained using regression and using a blend of random forest based estimation with linear regression.
 
 ### Spectrum Sharing in Licensed Wireless Communication Bands
 Pricing models to study the sharing of radio frequency resources between existing (e.g. cellular networks) and emerging technologies (e.g. robotics, sensor networks). Link to [repo](https://github.com/petecarkeek/Spectrum_Sharing) to programs used to generate plots for [IEEE paper on dynamic spectrum allocation in licensed wireless bands](https://ieeexplore.ieee.org/abstract/document/8301016/). 
