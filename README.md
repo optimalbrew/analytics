@@ -13,9 +13,10 @@ In two-sided markets, changes in the "price struture" (the ratio of fees charged
  
 
 ### Visualization of filings on FCC policy proposals
-Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. 
 
 This project uses simple natural language processing tools such as FastText for word2vec embeddings, and count-based methods such as Tf-Idf to visualize differnet positions taken by distinct stakeholders in the communication policy space. The visualization is based on standard dimensionality reduction techniques (singular value decomposition and t-SNE). [Link to repo](https://github.com/petecarkeek/FCC/).
+
+One issue concerns restrictions placed on access to utility poles. Utility poles not only carry power lines, but also support communication network gear such as fiber optic cables and related hardware. The poles thus have a *power space* (transmission lines, usually higher up the pole) and also a *communication space* (usually lower on the pole). Network gear may be attached directly to the poles (pole mounted), or attached to steel cables running along poles (strand mounted). Poles may be owned by local governments or utility companies. There are regional variations on how quickly and easily communication companies can obtain permissions to access poles to attach new equipment or modify existing equipment. The FCC recently moved to relax these restrictions. Naturally different parties have starkly different views and these are represented in filings by individuals and organizations (including lobbying groups).
 
 ### Mapping Fema Flood Insurance Adoption Rates and Sensitivity 
 "_Floods are the most common and costly natural hazard in the nation._" ([source: fema.gov](https://www.fema.gov/wildfires-you-need-flood-insurance)). 
