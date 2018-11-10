@@ -12,11 +12,10 @@ In two-sided markets, changes in the "price struture" (the ratio of fees charged
 
  
 
-### FCC regulatory filings and comments
-Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. This analysis uses natural language processing tools to quantify the market and institutional complexities in this sphere.
-* [Jupyter nb 1](./FCC17_84.ipynb): Using *R, tm, tidytext* a couple of lines of Bash. Has more detailed information.
-* [Jupyter nb 2](./fccPyClusters.ipynb): Using python with *nltk*, plots are a bit different from R version. Clustering is done  (separately) both before and after dimensionality reduction (with singular values decomp. and princal comps.). Unlike the R version, which seoarates the unigrams and bigram visualization, this version combines both unigrams and bigrams in one token-document matrix.
-* [D3 visualization](https://bl.ocks.org/petecarkeek/c7da7590422d55e0b1dde588d9835df1) (Jypter notebook uses ggplot2) on Mike Bostock's bl.ocks.org
+### Visualization of filings on FCC policy proposals
+Competition, or the lack thereof, among service providers not only determines economic efficiency but also the rate of adoption of new technologies. In the broadband connectivity space many other factors also influence technology adoption. These include local governments, national regulators, utilities, railroads, owners of cellular towers, workers (in all these companies), contractors and, of course, end users. 
+
+This project uses simple natural language processing tools such as FastText for word2vec embeddings, and count-based methods such as Tf-Idf to visualize differnet positions taken by distinct stakeholders in the communication policy space. The visualization is based on standard dimensionality reduction techniques (singular value decomposition and t-SNE). [Link to repo](https://github.com/petecarkeek/FCC/).
 
 ### Mapping Fema Flood Insurance Adoption Rates and Sensitivity 
 "_Floods are the most common and costly natural hazard in the nation._" ([source: fema.gov](https://www.fema.gov/wildfires-you-need-flood-insurance)). 
