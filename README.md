@@ -35,6 +35,6 @@ Pricing models to allocate wireless radio spectrum resources to emerging technol
 ### ML and econometrics
 One approach to blending machine learning tools with traditional econometrics framework is to think about the **anatomy of a regression** formula (e.g. see 'Mostly harmless econometrics' by Angrist and Pischke). The formula states that the **partial effect** of a variable X on Y can be estimated as *beta = Cov(Resid.Y, Resid.X)/Var(Resid.X)*, where these are residuals obtained by regressing Y and X on *all other covariates*. These regressions, in turn, can be based on linear regression, or any other statistical learning method such as random forests or neural networks. Standard errors can be obtained using resampling methods e.g. bootsrap, jackknife etc.  
 
-* [Multiple regression and generalized random forest](./genRandForest.ipynb) : simple "text book" example of a wage regression to compare linear models with random forest based estimation.
+* [Multiple regression and generalized random forest](./src/genRandForest.ipynb) : simple "text book" example of a wage regression to compare linear models with random forest based estimation.
 
-* [Treatment Effects Estimation](./avgTreatmentEffect.ipynb): regression and propensity score based methods for treatment effects estimation. The logistic regression in the example can be substituted with non-parametric ML tools such as random forest regressions. 
+* [Treatment Effects Estimation](./src/avgTreatmentEffect.ipynb): regression and propensity score based methods for treatment effects estimation. The logistic regression in the example can be substituted with non-parametric ML tools such as random forest regressions. 
