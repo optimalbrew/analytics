@@ -1,4 +1,10 @@
 ## Machine learning tools in economic analysis
+### Visualizing evolving narratives in regional economic conditions
+The Federal Reserve Sytem's Beige Book reports contain anecdotes from a variety of sources. There are eight reports every year covering each of the 12 districts and a national summary, or about 5000 documents. The motivation behind the current project is to use recent advances in compuational linguistics and natural language processing to try and visualize changes in these narratives across regions, sectors and time.
+
+[Example visualization using D3 scatter plots](http://bl.ocks.org/petecarkeek/raw/951e3798b51e6f8ad05cad4029b62d54/)
+
+
 
 ### [Early repayment and default in personal loan markets](https://github.com/petecarkeek/consumerFinance/)
 Investors in fixed income securities (like p2p lending) must account for the possibility of default. This is made easier by credit ratings. However, early debt repayment can also hurt investors by altering their expected cash flow streams and leaving them with excess liquidity. This is especially a problem for those who do not have automated reinvestment strategies (most investors in peer to peer personal loans markets?). Multinomial logistic regression can be used to predict default, or early repayment and linear regression (or survival analysis) can be used to predict the time of default or early repayment. Implementing a feed forward neural network to do both in one step.
