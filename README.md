@@ -1,6 +1,6 @@
 ## Machine learning tools in economic analysis
 ### [Visualizing evolving narratives in regional economic conditions](https://github.com/petecarkeek/beigeBook/)
-*Tools*: Python, BeautifulSoup, FastText, SVD and D3.js for visualization.
+*Tools*: Python, pandas, sklearn, BeautifulSoup, FastText, and D3.js for visualization.
 
 The Federal Reserve Sytem's Beige Book reports contain anecdotes from a variety of sources. There are eight reports every year covering each of the 12 districts and a national summary, or about 5000 documents. The motivation behind the current project is to use recent advances in compuational linguistics and natural language processing to try and visualize changes in these narratives across regions, sectors and time.
 
@@ -10,7 +10,7 @@ The Federal Reserve Sytem's Beige Book reports contain anecdotes from a variety 
 
 ### [Early repayment and default in personal loan markets](https://github.com/petecarkeek/consumerFinance/)
 
-*Tools:* Python, Spark (SQL, ML) on AWS (EC2/S3), pyTorch.
+*Tools:* Python, Spark (SQL, ML) on AWS (EC2/S3), pandas, sklearn, pyTorch.
 
 Investors in fixed income securities (like p2p lending) must account for the possibility of default. This is made easier by credit ratings. However, early debt repayment can also hurt investors by altering their expected cash flow streams and leaving them with excess liquidity. This is especially a problem for those who do not have automated reinvestment strategies (most investors in peer to peer personal loans markets?). Multinomial logistic regression can be used to predict default, or early repayment and linear regression (or survival analysis) can be used to predict the time of default or early repayment. Implementing a feed forward neural network to do both in one step.
 
