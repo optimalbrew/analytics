@@ -1,4 +1,12 @@
 ## Machine learning tools in economic analysis
+
+### [A pyTorch implementation of two-sided marketplace pricing](./src/Marketplace.ipynb)
+*Tools:* Python, pyTorch for tensor computations.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/petecarkeek/analytics/blob/master/src/Marketplace.ipynb)
+
+In two-sided markets, changes in the "price struture" (the ratio of fees charged to both sides) can lead to large changes in user participation, transaction volume and profitability. In some cases, it is beneficial to subsidize one side of the market and making it up on the other side of the market. The project illustrates how deep learning frameworks (e.g. pyTorch) with automatic gradient computations can be used for generic modeling and optimization in economics (and not just to implement neural networks). Such models of optimization can then be linked with user experience or demand analytics.
+
+
 ### [Visualizing evolving narratives in regional economic conditions](https://github.com/petecarkeek/beigeBook/)
 *Tools*: Python, pandas, sklearn, BeautifulSoup, FastText, and D3.js for visualization.
 
@@ -14,10 +22,6 @@ The Federal Reserve Sytem's Beige Book reports contain anecdotes from a variety 
 
 Investors in fixed income securities (like p2p lending) must account for the possibility of default. This is made easier by credit ratings. However, early debt repayment can also hurt investors by altering their expected cash flow streams and leaving them with excess liquidity. This is especially a problem for those who do not have automated reinvestment strategies (most investors in peer to peer personal loans markets?). Multinomial logistic regression can be used to predict default, or early repayment and linear regression (or survival analysis) can be used to predict the time of default or early repayment. Implementing a feed forward neural network to do both in one step.
 
-### [A pyTorch implementation of two-sided marketplace pricing](./src/Marketplace.ipynb)
-*Tools:* Python, pyTorch for tensor computations.
-
-In two-sided markets, changes in the "price struture" (the ratio of fees charged to both sides) can lead to large changes in user participation, transaction volume and profitability. In some cases, it is beneficial to subsidize one side of the market and making it up on the other side of the market. The project illustrates how deep learning frameworks (e.g. pyTorch) with automatic gradient computations can be used for generic modeling and optimization in economics (and not just to implement neural networks). Such models of optimization can then be linked with user experience or demand analytics.
 
 **Example:** Consider a marketplace that connects pet owners with pet-care service providers. The platform charges fees of 5% to pet owners while it charges 25% to service providers. For any given transaction price, say $20 for a dog walk, the buyer spends $20 + $1 = $21 net, while the service provider receives $20 - $5 = $15 net. The platform earns $1+$5 = $6 (i.e. 30% of $20). Will the platform's revenue be the same with other fee-combinations that still add up to the same 30% (e.g. 15% to each side)? Of course not, as the new fee structure will alter the willingness to use the service (e.g. increase owners' out of pocket costs in our example to $20+$3=$23). 
 
